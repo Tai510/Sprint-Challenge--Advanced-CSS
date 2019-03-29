@@ -180,12 +180,10 @@ img {
   margin-top: 1rem;
 }
 @media (max-width:500px) {
-  .intro-nav {
-    background: pink;
-  }
   .intro-nav nav a {
     text-align: center;
-    padding: 1px;
+    padding: 5px;
+    font-size: 12px;
   }
 }
 footer {
@@ -259,4 +257,27 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width:500px) {
+  body {
+    background: pink;
+  }
+}
+@media (max-width:500px) {
+  img {
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .space-images {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (max-width:500px) {
+  .walk {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
 }
