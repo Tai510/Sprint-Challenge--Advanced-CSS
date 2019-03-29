@@ -8,6 +8,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,12 +17,23 @@
 
 <body>
 
- <!-- navigation code here -->
-
   <div class="container home">
+
+      <section class="intro-nav">
+          <h1>SpaceWalkers</h1>
+          <nav>
+            <a href="">Home </a>
+            <a href="">About Us</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <a href="">Sign In</a>
+          </nav>
+       </section>
 
     <header class="intro">
        <!-- image code here -->
+
+       <img src="img/main-header.png" alt="space">
 
       <h2>Lift Off</h2>
     
@@ -29,7 +41,7 @@
     </header>
 
     <section class="space-images">
-        <img src="img/blast.png" class="blast" alt="Rocket blasting off">
+        <img src="img/blast.png" id ="blast"class="blast" alt="Rocket blasting off">
         <img src="img/sky.png" class="sky" alt="Space sky image">
         <img src="img/launch.png" class="launch" alt="Launching rocket">
     </section>
@@ -51,12 +63,12 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
+        <div id="mobile-btn" class="btn">
           Sign Up
         </div>
       </div>
       
-      <div class="walk-img">
+      <div id="spaceman" class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>
 
@@ -66,6 +78,7 @@
       <p>Copyright SpaceWalkers 2018</p>
     </footer>
 
-  </div>
-</body>
+  </div><!-- container-home end -->
+</div> 
+</body>   
 </html>
