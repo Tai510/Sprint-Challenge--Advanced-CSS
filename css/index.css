@@ -179,6 +179,15 @@ p {
 img {
   margin-top: 1rem;
 }
+@media (max-width:500px) {
+  .intro-nav {
+    background: pink;
+  }
+  .intro-nav nav a {
+    text-align: center;
+    padding: 1px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -230,6 +239,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background: black;
+  width: 110px;
+  height: 30px;
+  border-radius: 10%;
+  color: white;
 }
 .home .walk .walk-img {
   width: 46%;
